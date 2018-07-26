@@ -39,17 +39,16 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
+  font-size:25px;
 
     a {
       text-decoration: none;
-      color: white;
-      padding: 20px 40px
     }
 
     .button{
       display: inline-block;
       padding: 10px 30px;
-      margin: 10px 0;
+      margin: 10px 0px;
       position: relative;
       color: white;
     }
