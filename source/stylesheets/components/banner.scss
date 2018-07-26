@@ -6,6 +6,14 @@
   flex-direction: column;
   text-align: center;
   color: white;
+  overflow: hidden;
+  overflow: hidden;
+  background-image: radial-gradient(rgba(15, 15, 10, 0.1), rgba(15, 15, 10, 0.95)), url("../images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+
 
   h1 {
     letter-spacing: 5px;
@@ -25,9 +33,59 @@
     margin-top: 20px;
   }
 
-  a {
-    text-decoration: none;
-    color: white;
+  .contacts {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+    a {
+      text-decoration: none;
+      color: white;
+      padding: 20px 40px
+    }
+
+    .button{
+      display: inline-block;
+      padding: 10px 30px;
+      margin: 10px 0;
+      position: relative;
+      color: white;
+    }
+
+    #button-5 {
+      color: white;
+      overflow: hidden;
+    }
+
+    #button-5:before, #button-5:after{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      background-color: white;
+      top: 0;
+      left: -100%;
+      -webkit-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+
+    #button-5:after{
+      bottom: 0 !important;
+      top: auto !important;
+      right: -100%;
+      left: auto;
+    }
+
+    #button-5:hover:before{
+      left: 0;
+    }
+
+    #button-5:hover:after{
+      right: 0;
+    }
   }
 }
 
