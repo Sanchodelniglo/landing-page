@@ -10,27 +10,28 @@
   overflow: hidden;
   background-image: radial-gradient(rgba(15, 15, 10, 0.1), rgba(15, 15, 10, 0.95)), url("../images/background.jpg");
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 
-
-
-
   h1 {
-    letter-spacing: 5px;
-    font-weight: 300;
-    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 70px;
+    margin-top: 0px;
+
   }
 
   h3 {
     letter-spacing: 5px;
-    margin: 0px;
-    font-weight: 550;
+    font-weight: 600;
   }
 
   p {
+    font-weight: 200;
     letter-spacing: 2px;
     font-size: 20px;
     margin-top: 20px;
+
   }
 
   .contacts {
@@ -39,7 +40,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  font-size:25px;
+  font-size:20px;
 
     a {
       text-decoration: none;
@@ -47,10 +48,10 @@
 
     .button{
       display: inline-block;
-      padding: 10px 30px;
-      margin: 10px 0px;
+      padding: 10px 1px;
       position: relative;
       color: white;
+      letter-spacing: 2px;
     }
 
     #button-5 {
