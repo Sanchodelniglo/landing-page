@@ -1,6 +1,11 @@
 <!doctype html>
-<html>
+<html xmlns:og="http://ogp.me/ns#">
   <head>
+
+    <meta property="og:title" content="W&lt;a&gt;ve" />
+    <meta property="og:description" content="Freelance Web Developer - Bordeaux" />
+    <meta property="og:url" content="https://www.wave-dev.fr" />
+    <meta property="og:image" content="http://www.wave-dev.fr/images/wave_logo.png" />
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
@@ -8,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,600" rel="stylesheet">
 
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "W<a>ve" %></title>
+    <title><%= current_page.data.title || "W<a>ve - Freelance Web Developer - Bordeaux" %></title>
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
     <%= favicon_tag 'images/favicon.ico' %>
