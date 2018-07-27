@@ -4,6 +4,7 @@ end
 
 activate :sprockets
 activate :livereload
+activate :minify_html
 
 page '/*.xml', layout: false
 page '/*.json', layout: false
@@ -14,6 +15,7 @@ configure :build do
   activate :minify_javascript
   activate :asset_hash
   activate :relative_assets
+  activate :minify_html
   set :relative_links, true
 end
 
