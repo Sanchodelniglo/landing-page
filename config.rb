@@ -4,7 +4,7 @@ end
 
 activate :sprockets
 activate :livereload
-activate :minify_html
+
 
 page '/*.xml', layout: false
 page '/*.json', layout: false
