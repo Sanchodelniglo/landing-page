@@ -7,12 +7,11 @@ gem 'middleman-deploy', git: 'https://github.com/lewagon/middleman-deploy.git'
 gem 'pry-byebug', require: true
 gem 'middleman-livereload', '~> 3.4.3'
 gem 'middleman-minify-html'
+gem 'middleman-sitemap'
 
 
 
 # Assets
 gem 'font-awesome-middleman'
 gem 'font-awesome-sass'
-gem 'bootstrap-sass'
-gem 'jquery-middleman'
 

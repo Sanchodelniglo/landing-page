@@ -4,6 +4,7 @@ end
 
 activate :sprockets
 activate :livereload
+activate :sitemap, :hostname => "https://www.wave-dev.fr"
 
 
 page '/*.xml', layout: false
