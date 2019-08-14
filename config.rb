@@ -5,7 +5,6 @@ end
 activate :sprockets
 activate :livereload
 
-
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
@@ -23,4 +22,3 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
 end
-
