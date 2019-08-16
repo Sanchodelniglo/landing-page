@@ -8,7 +8,9 @@
   color: white;
   overflow: hidden;
   overflow: hidden;
-  background-image: radial-gradient(rgba(15, 15, 10, 0.1), rgba(15, 15, 10, 0.95)), url("../images/background.jpg");
+  //background-image: radial-gradient(rgba(15, 15, 10, 0.1), rgba(15, 15, 10, 0.95)), url("../images/background.jpg");
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 12%, rgba(0,172,207,1) 45%, rgba(9,54,121,1) 96%);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
