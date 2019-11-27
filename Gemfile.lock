@@ -116,7 +116,6 @@ GEM
     padrino-support (0.13.3.4)
       activesupport (>= 3.1)
     parallel (1.12.1)
-    particles-js-rails (2.0.0)
     pry (0.11.3)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
@@ -154,14 +153,14 @@ PLATFORMS
 DEPENDENCIES
   font-awesome-middleman
   font-awesome-sass
+  haml
   middleman (~> 4.2)
   middleman-autoprefixer (~> 2.7)
   middleman-deploy!
   middleman-livereload (~> 3.4.3)
   middleman-minify-html
   middleman-sprockets
-  particles-js-rails
   pry-byebug
 
 BUNDLED WITH
-   1.16.2
+   1.17.2

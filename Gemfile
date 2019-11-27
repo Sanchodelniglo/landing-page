@@ -12,3 +12,4 @@ gem 'middleman-minify-html'
 gem 'font-awesome-middleman'
 gem 'font-awesome-sass'
 
+gem 'haml'
